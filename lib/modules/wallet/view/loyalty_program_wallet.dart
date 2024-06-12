@@ -27,7 +27,7 @@ class _LoyaltyProgramWalletState extends State<LoyaltyProgramWallet> {
 
   int? currentCardIndex;
 
-  Loyalty loyalty = Loyalty.none;
+  Loyalty loyalty = Loyalty.create;
 
   File? image;
 
@@ -1090,44 +1090,44 @@ class _LoyaltyProgramWalletState extends State<LoyaltyProgramWallet> {
                   ],
                 ),
               )
-            else
-              Padding(
-                padding: const EdgeInsets.symmetric(
-                  vertical: 20,
-                  horizontal: 20,
-                ),
-                child: GestureDetector(
-                  onTap: () {
-                    setState(() {
-                      buttonAdd = false;
-                    });
-                  },
-                  child: Container(
-                    width: double.infinity,
-                    height: 47,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      gradient: const LinearGradient(
-                        colors: [
-                          Color(0xff1ec932),
-                          Color(0xff0db3e3),
-                        ],
-                      ),
-                    ),
-                    child: const Center(
-                      child: Text(
-                        'Add Card to Wallet',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontFamily: 'SF-Pro-Display',
-                          fontWeight: FontWeight.w700,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-              ),
+            // else
+            // Padding(
+            //   padding: const EdgeInsets.symmetric(
+            //     vertical: 20,
+            //     horizontal: 20,
+            //   ),
+            //   child: GestureDetector(
+            //     onTap: () {
+            //       setState(() {
+            //         buttonAdd = false;
+            //       });
+            //     },
+            //     child: Container(
+            //       width: double.infinity,
+            //       height: 47,
+            //       decoration: BoxDecoration(
+            //         borderRadius: BorderRadius.circular(10),
+            //         gradient: const LinearGradient(
+            //           colors: [
+            //             Color(0xff1ec932),
+            //             Color(0xff0db3e3),
+            //           ],
+            //         ),
+            //       ),
+            //       child: const Center(
+            //         child: Text(
+            //           'Add Card to Wallet 1',
+            //           style: TextStyle(
+            //             color: Colors.white,
+            //             fontFamily: 'SF-Pro-Display',
+            //             fontWeight: FontWeight.w700,
+            //             fontSize: 16,
+            //           ),
+            //         ),
+            //       ),
+            //     ),
+            //   ),
+            // ),
           ],
         ),
       ),
