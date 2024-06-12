@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:io';
 // import 'package:flutter/material.dart';
 
 class LoyaltyCard {
@@ -7,6 +8,7 @@ class LoyaltyCard {
   final String expiryDate;
   final String status;
   final String images;
+  final String? imagesFile;
 
   LoyaltyCard({
     required this.name,
@@ -14,6 +16,7 @@ class LoyaltyCard {
     required this.expiryDate,
     required this.status,
     required this.images,
+    this.imagesFile,
   });
 
   Map<String, dynamic> toMap() {
@@ -23,6 +26,7 @@ class LoyaltyCard {
       'expiryDate': expiryDate,
       'status': status,
       'images': images,
+      'imagesFile': imagesFile,
     };
   }
 
@@ -33,6 +37,8 @@ class LoyaltyCard {
       expiryDate: map['expiryDate'] as String,
       status: map['status'] as String,
       images: map['images'] as String,
+      imagesFile:
+          map['imagesFile'] != null ? map['imagesFile'] as String : null,
     );
   }
 
@@ -47,11 +53,13 @@ class CardModelImage {
     required this.image,
     required this.imageFill,
     required this.text,
+    this.imageFile,
   });
 
   final String image;
   final String text;
   final String imageFill;
+  final File? imageFile;
 }
 
 List<CardModelImage> cardImage = [

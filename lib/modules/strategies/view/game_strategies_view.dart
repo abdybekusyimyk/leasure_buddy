@@ -72,7 +72,7 @@ class GameStrategiesView extends StatelessWidget {
                             style: const TextStyle(
                               fontFamily: 'SF Pro Display',
                               fontWeight: FontWeight.w400,
-                              color: Colors.white,
+                              color: Colors.white54,
                               fontSize: 15,
                             ),
                           ),

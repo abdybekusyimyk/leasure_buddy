@@ -67,7 +67,7 @@ class GameStrategiesDetailView extends StatelessWidget {
                     gameStrategiesModel.strategiesDetailModel.text,
                     textAlign: TextAlign.start,
                     style: const TextStyle(
-                      color: Colors.white,
+                      color: Colors.white70,
                       fontFamily: 'SF Pro Display',
                       fontWeight: FontWeight.w400,
                       fontSize: 16,

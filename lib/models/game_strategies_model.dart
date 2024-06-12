@@ -25,7 +25,7 @@ final List<GameStrategiesModel> gameStrategies = [
     description:
         'Craps is a fast-moving casino table game. An average speed at a busy blackjack table runs around 60 hands per hour, but the house expects about 100 decisions per hour at craps. Learn how to play.',
     strategiesDetailModel: GameStrategiesDetailModel(
-      image: 'assets/images/friends-playing.png',
+      image: 'assets/images/craps-scaled.jpeg',
       text:
           '''Even blindfolded in a crowded casino, anyone can find the craps table when the dice are hot. Just follow the screams, shouts, and cheers. Jackpot winners on slot machines may be the loudest individuals in the house, but nothing is quite like the collective excitement that builds at a craps table. Whereas blackjack players are quiet studies in concentration, craps players let loose as they win or lose together.
 Conversely, nothing is quite as dead as a craps table when the dice are cold. At peak hours, when you see three or four somber individuals at the big table for 24, you can be sure the loser 7s have been coming up all too frequently.
@@ -40,7 +40,7 @@ At the center of the table between the boxman and stickman are boxes for proposi
     description:
         'Of all the casino games, blackjack is the one that is actually possible to beat. As a result, blackjack is by far the most popular table game in the United States. Learn how to play.',
     strategiesDetailModel: GameStrategiesDetailModel(
-      image: 'assets/images/friends-playing.png',
+      image: 'assets/images/Gaming-Blackjack.jpeg',
       text:
           '''Even blindfolded in a crowded casino, anyone can find the craps table when the dice are hot. Just follow the screams, shouts, and cheers. Jackpot winners on slot machines may be the loudest individuals in the house, but nothing is quite like the collective excitement that builds at a craps table. Whereas blackjack players are quiet studies in concentration, craps players let loose as they win or lose together.
 Conversely, nothing is quite as dead as a craps table when the dice are cold. At peak hours, when you see three or four somber individuals at the big table for 24, you can be sure the loser 7s have been coming up all too frequently.
@@ -55,7 +55,7 @@ At the center of the table between the boxman and stickman are boxes for proposi
     description:
         '''Roulette is a game of pure chance that doesn't require skill. The key is to know how to bet and when to cut your losses before the wheel stops. Learn how to play roulette. Learn how to play.''',
     strategiesDetailModel: GameStrategiesDetailModel(
-      image: 'assets/images/friends-playing.png',
+      image: 'assets/images/Roulette.jpeg',
       text:
           '''Even blindfolded in a crowded casino, anyone can find the craps table when the dice are hot. Just follow the screams, shouts, and cheers. Jackpot winners on slot machines may be the loudest individuals in the house, but nothing is quite like the collective excitement that builds at a craps table. Whereas blackjack players are quiet studies in concentration, craps players let loose as they win or lose together.
 Conversely, nothing is quite as dead as a craps table when the dice are cold. At peak hours, when you see three or four somber individuals at the big table for 24, you can be sure the loser 7s have been coming up all too frequently.
@@ -70,7 +70,7 @@ At the center of the table between the boxman and stickman are boxes for proposi
     description:
         '''Video poker adds an aspect that slot machines don't offer -- the elements of skill and challenge. Players have decisions to make that can affect the outcome of the game. Learn how to play.''',
     strategiesDetailModel: GameStrategiesDetailModel(
-      image: 'assets/images/friends-playing.png',
+      image: 'assets/images/tro-choi-poker.png',
       text:
           '''Even blindfolded in a crowded casino, anyone can find the craps table when the dice are hot. Just follow the screams, shouts, and cheers. Jackpot winners on slot machines may be the loudest individuals in the house, but nothing is quite like the collective excitement that builds at a craps table. Whereas blackjack players are quiet studies in concentration, craps players let loose as they win or lose together.
 Conversely, nothing is quite as dead as a craps table when the dice are cold. At peak hours, when you see three or four somber individuals at the big table for 24, you can be sure the loser 7s have been coming up all too frequently.
@@ -85,7 +85,7 @@ At the center of the table between the boxman and stickman are boxes for proposi
     description:
         '''Slot machines are more popular than table games at casinos — the personal interaction with dealers at the tables is often intimidating to some. On the slots, it's just you and the machine. Learn how to play.''',
     strategiesDetailModel: GameStrategiesDetailModel(
-      image: 'assets/images/friends-playing.png',
+      image: 'assets/images/machines.jpeg',
       text:
           '''Even blindfolded in a crowded casino, anyone can find the craps table when the dice are hot. Just follow the screams, shouts, and cheers. Jackpot winners on slot machines may be the loudest individuals in the house, but nothing is quite like the collective excitement that builds at a craps table. Whereas blackjack players are quiet studies in concentration, craps players let loose as they win or lose together.
 Conversely, nothing is quite as dead as a craps table when the dice are cold. At peak hours, when you see three or four somber individuals at the big table for 24, you can be sure the loser 7s have been coming up all too frequently.
@@ -100,7 +100,7 @@ At the center of the table between the boxman and stickman are boxes for proposi
     description:
         '''If you’ve ever stepped foot in a casino, you’ve undoubtedly noticed the craps tables –- that’s where all the cheers are coming from. Learn how to play.''',
     strategiesDetailModel: GameStrategiesDetailModel(
-      image: 'assets/images/friends-playing.png',
+      image: 'assets/images/casino-picture.jpeg',
       text:
           '''Even blindfolded in a crowded casino, anyone can find the craps table when the dice are hot. Just follow the screams, shouts, and cheers. Jackpot winners on slot machines may be the loudest individuals in the house, but nothing is quite like the collective excitement that builds at a craps table. Whereas blackjack players are quiet studies in concentration, craps players let loose as they win or lose together.
 Conversely, nothing is quite as dead as a craps table when the dice are cold. At peak hours, when you see three or four somber individuals at the big table for 24, you can be sure the loser 7s have been coming up all too frequently.
@@ -115,7 +115,7 @@ At the center of the table between the boxman and stickman are boxes for proposi
     description:
         '''Blackjack (also known as "21") is one of the most popular casino games, at least partly because the rules are easy to grasp. There's one aim: Get as close to 21 as possible. Learn how to play.''',
     strategiesDetailModel: GameStrategiesDetailModel(
-      image: 'assets/images/friends-playing.png',
+      image: 'assets/images/croupiers-at-casino.jpeg',
       text:
           '''Even blindfolded in a crowded casino, anyone can find the craps table when the dice are hot. Just follow the screams, shouts, and cheers. Jackpot winners on slot machines may be the loudest individuals in the house, but nothing is quite like the collective excitement that builds at a craps table. Whereas blackjack players are quiet studies in concentration, craps players let loose as they win or lose together.
 Conversely, nothing is quite as dead as a craps table when the dice are cold. At peak hours, when you see three or four somber individuals at the big table for 24, you can be sure the loser 7s have been coming up all too frequently.
@@ -130,7 +130,7 @@ At the center of the table between the boxman and stickman are boxes for proposi
     description:
         '''Slot machines may be computerized now, but they’re still the most popular gambling attraction at many casinos. While we can’t tell you how to improve your chances, we will explain how the... Learn how to play.''',
     strategiesDetailModel: GameStrategiesDetailModel(
-      image: 'assets/images/friends-playing.png',
+      image: 'assets/images/how-casino-slot.jpeg',
       text:
           '''Even blindfolded in a crowded casino, anyone can find the craps table when the dice are hot. Just follow the screams, shouts, and cheers. Jackpot winners on slot machines may be the loudest individuals in the house, but nothing is quite like the collective excitement that builds at a craps table. Whereas blackjack players are quiet studies in concentration, craps players let loose as they win or lose together.
 Conversely, nothing is quite as dead as a craps table when the dice are cold. At peak hours, when you see three or four somber individuals at the big table for 24, you can be sure the loser 7s have been coming up all too frequently.

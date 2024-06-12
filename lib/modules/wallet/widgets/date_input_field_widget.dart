@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
@@ -57,19 +58,40 @@ class _DateInputFieldState extends State<DateInputField> {
           ),
         ),
         onTap: () async {
-          DateTime? pickedDate = await showDatePicker(
+          DateTime date = DateTime.now();
+          showCupertinoModalPopup<void>(
             context: context,
-            initialDate: DateTime.now(),
-            firstDate: DateTime(1950),
-            lastDate: DateTime(2101),
+            builder: (BuildContext context) => Theme(
+              data: ThemeData.light().copyWith(
+                colorScheme: const ColorScheme.dark(),
+                dialogBackgroundColor: Colors.white,
+              ),
+              child: Container(
+                height: 216,
+                padding: const EdgeInsets.only(top: 6.0),
+                margin: EdgeInsets.only(
+                  bottom: MediaQuery.of(context).viewInsets.bottom,
+                ),
+                color: const Color(0xff0a0035),
+                child: SafeArea(
+                  top: false,
+                  child: CupertinoDatePicker(
+                    initialDateTime: date,
+                    mode: CupertinoDatePickerMode.date,
+                    use24hFormat: true,
+                    showDayOfWeek: true,
+                    onDateTimeChanged: (DateTime newDate) {
+                      String formattedDate =
+                          DateFormat('dd.MM.yyyy').format(newDate);
+                      setState(() {
+                        widget.controller.text = formattedDate;
+                      });
+                    },
+                  ),
+                ),
+              ),
+            ),
           );
-
-          if (pickedDate != null) {
-            String formattedDate = DateFormat('dd.MM.yyyy').format(pickedDate);
-            setState(() {
-              widget.controller.text = formattedDate;
-            });
-          }
         },
       ),
     );
